@@ -1,0 +1,3 @@
+DNGLOG_DOMAIN_NAME {
+    reverse_proxy localhost:8080
+}

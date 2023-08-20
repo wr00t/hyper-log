@@ -1,0 +1,13 @@
+alicloud:
+  ak: xxx
+  sk: xxx
+  region: cn-hongkong
+  availability_zone: cn-hongkong-c
+  ecs_type: ecs.t5-lc2m1.nano
+cloudflare:
+  api_token: xxx
+  zone_id: xxx
+  main_domain: example.com
+github:
+  client_id: xxx
+  client_secret: xxx
