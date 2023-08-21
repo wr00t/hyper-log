@@ -28,7 +28,7 @@ resource "alicloud_instance" "hyper-log" {
       "export PATH=$PATH:/usr/local/bin",
       "export DEBIAN_FRONTEND=noninteractive",
       # download bin file
-      "wget -O /usr/local/bin/caddy https://caddyserver.com/api/download?os=linux&arch=amd64",
+      "wget -O /usr/local/bin/caddy https://caddyserver.com/api/download\\?os\\=linux\\&arch\\=amd64",
       "wget -O /usr/local/bin/hyuga https://github.com/ac0d3r/Hyuga/releases/latest/download/hyuga-linux-amd64",
       "apt-get update",
       "yes | apt-get upgrade",
